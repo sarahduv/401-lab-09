@@ -14,7 +14,7 @@ const morgan = require('morgan');
 const errorHandler = require( `./middleware/500.js`);
 const notFound = require( `./middleware/404.js` );
 const v1Router = require( `./api/v1.js` );
-require(`./api/swagger.js`);
+// require(`./api/swagger.js`);
 
 // Prepare the express app
 const app = express();
